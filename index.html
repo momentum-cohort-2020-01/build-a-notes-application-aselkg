@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Notes</title>
+  <title>Note Keep</title>
+  <script src="main.js"></script>
+  <script src="moment.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <div class='main'>
+
+    <h2 class="dateToday"></h2>
+    <div id='create-note'>
+      <form id="note-form">
+        <input id="title" class="noteTitle" placeholder="TITLE...">
+        <input id="description" class="noteDescription" placeholder="description...">
+        <input type="submit" class="submitButton" value="Add Note">
+      </form>
+    </div>
+
+    <div id='container'></div>
+
+  </div>
 </body>
+
 </html>

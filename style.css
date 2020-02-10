@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(226, 227, 252);
+    font-family: "Courier New", Courier, monospace;
+}
+.main {
+    width: 40%;
+    height: 450px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+
+    
+}
+   
+.dateToday{
+  background-color:  rgb(155, 112, 216);
+  color: white;
+  text-align: center;
+  margin: 30px 5px;
+  /* display: inline; */
+  padding: 15px;
+  border-radius: 5px;
+  
+}
+.noteTitle {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.noteDescription {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.submitButton {
+    background-color:  rgb(155, 112, 216);
+    padding: 5px 50px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.newNote {
+    background-color: rgb(255, 255, 255);
+    border-color: teal;
+    margin: 3px;
+    border-radius: 5px;
+}
+.edit-form {
+    width: 40%;
+}
